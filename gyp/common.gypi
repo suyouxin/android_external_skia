@@ -16,6 +16,8 @@
       'SK_GAMMA_SRGB',
       'SK_GAMMA_APPLY_TO_A8',
       'SK_SCALAR_TO_FLOAT_EXCLUDED',  # temporary to allow Chrome to call SkFloatToScalar
+      'SK_SUPPORT_LEGACY_SETCONFIG_INFO',  # Marvell gpu libs need this
+      'SK_SUPPORT_LEGACY_SETCONFIG',
     ],
 
     # Validate the 'skia_os' setting against 'OS', because only certain
